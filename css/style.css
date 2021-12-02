@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+ }
+
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: #000;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+/*.navbar .logo{
+	flex-basis: 40%;
+}
+
+.navbar .manu, .navbar .login {
+	flex-basis: 60%;
+}*/
+
+.logo img{
+	width: 100px;
+	height: auto;
+}
+
+.manu{
+	margin: auto;
+}
+
+.manu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.manu ul li a {
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	margin: 0px 20px 0px 0px;
+	font-size: 1.0rem;
+}
+ 
+.manu ul li:hover {
+	background: #F9799A;
+	padding: 8px 8px;
+	/*text-decoration: underline;*/
+	/*color: #fff;*/
+	/*font-weight: 500;*/
+}
+
+.manu ul li a:hover{
+	color: #fff;
+	font-weight: 500;
+}
+
+.login {
+	margin: 30px 0 0px;
+}
+
+.login button{
+	padding: 10px 22px;
+	background:  #1A8CD8;
+	color: #fff;
+	border: none;
+
+}
+
+.login button:hover{
+	 background: #F9799A;
+	 background: #1A8CD8;
+	 cursor: pointer;
+}
+
+	/*Header Css Style End here*/
+
+
+.banner-section{
+	width: 100%;
+	background: #000;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.banner-content .left-ban{
+	flex-basis: 50%;
+}
+.banner-content .right-ban{
+	flex-basis: 40%;
+}
+
+.right-ban{
+	padding: 55px 32px 41px;
+}
+
+
+.right-ban img{
+	width: 100%;
+	height: auto;
+	/*margin: 60px;*/
+	border-radius: 50px;
+}
+.banner-content {
+	display: flex;
+	padding: 80px 0px;
+	margin: 0px 0px 20px;
+}
+
+.left-ban{
+	padding:70px 0px 30px 30px;
+}
+
+.left-h {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 44px;
+    padding-left: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.left-ban p{
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	font-size: 20px;
+    padding: 0px 30px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.btn {
+	border: none;
+	padding: 15px 25px;
+	background: #1A8CD8;
+	margin-left: 30px;
+	border-radius: 8px;
+	color: #FFF;
+	font-weight: 400;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background: #F9799A;
+	/*text-decoration: underline;*/
+}
+ 
+ 
